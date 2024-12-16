@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #1d1d1d;
+    color: whitesmoke;
+}
+.nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: netflix 'sans-serif' 'Courier New', Courier, monospace;
+    padding: 0px 30px;
+    position: fixed;
+    width: 100%;
+}
+.nav .header-content{
+    display: flex;
+    align-items: center;
+}
+.nav .nav-img img{
+    width: 130px;
+    padding: 7px 10px;
+    align-items: center;
+}
+.nav button{
+    padding: 7px 35px;
+    margin: 0px 5px;
+    font-size: 12px;
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+
+.nav .signin{
+    border: 1px solid#616161;
+    background-color: transparent;
+    color: white;
+    padding: 7px 25px;
+}
+.nav .header-content div{
+    font-size: 13px;
+}
+
+
+/* ---------headercontent--------------------- */
+
+.header-content h1{
+    font-size: 60px;
+    color: aliceblue;
+    padding: 5% 3% 1% ;
+    font-weight: 1000;
+}
+.header-content p{
+    object-fit: contain;
+    padding: 0% 3% 2%  ;
+    font-size: 20px;
+    line-height: 1.5rem;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* -------------posters section--------------------- */
+
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin:1% 2.2%;
+}
+.posters::-webkit-scrollbar{
+    display:none;  
+}
+.poster{
+    margin:0% 0.6%;
+    border-radius: 0.4%;
+}
+h2{
+    margin: 1% 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 2% 0% 0% 0%;
+}
+.posters:hover{
+    cursor: pointer;
+}
+h3:hover{
+    cursor: pointer;
+}
+
+/* ----------------------container blur------------------- */
+
+.containerblur{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://img.freepik.com/premium-photo/abstract-139-background-wallpaper_792836-251818.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+button{
+    padding: 7px 35px;
+    margin: 15px 5px;
+    font-size: 12px;
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+.containerblur .content{
+    text-align: center;
+    padding-top: 10%;
+}
+.containerblur .content h1{
+    padding: 10px 0px;font-size: 50px;
+}
+
+/* ---------------------------footer section--------------------- */
+
+
+footer{
+    padding: 40px 4% 10px;
+    color: #666;
+}
+
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'arial';
+    margin: 0 0 20px 100px;
+    color: #b8b2b2;
+}
+footer h1 a{
+    font-size: 15px;
+    color: #b1adad;
+    padding: 20px 0px;
+}
+footer .row{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px ;
+
+}
+footer .col{
+    margin: 10px 100px;
+}
+footer .col a{
+    color: #b1adad;
+    font-size: 0.8rem;
+    padding: 8px;
+    display: block;
+}
+
+footer .lang-btn button i{
+    padding: 9px 9px;
+    border-radius: px;  
+}
+footer .lang-btn button{
+    border-radius: 4px;
+    background-color: transparent; 
+    color: white;
+    border: 1px solid gray;
+    margin: 40px 100px;
+}
+footer .lang-btn button{
+    border-radius: 4px;
+    background-color: transparent; 
+    color: white;
+    border: 1px solid gray;
+}
+
+h4{
+    color: #b1adad;
+    font-weight: 300;
+    padding: 0px 100px 50px;
+}

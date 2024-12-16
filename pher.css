@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #222;
+    color: #ffff;
+}
+.banner{
+    /* background:linear-gradient(0deg,#181818 0,hsla(0,0%,9%,.987) 1.62%,hsla(0,0%,9%,.951) 3.1%,hsla(0,0%,9%,.896) 4.5%,hsla(0,0%,9%,.825) 5.8%,hsla(0,0%,9%,.741) 7.06%,hsla(0,0%,9%,.648) 8.24%,hsla(0,0%,9%,.55) 9.42%,hsla(0,0%,9%,.45) 10.58%,hsla(0,0%,9%,.352) 11.76%,hsla(0,0%,9%,.259) 12.94%,hsla(0,0%,9%,.175) 14.2%,hsla(0,0%,9%,.104) 15.5%,hsla(0,0%,9%,.049) 16.9%,hsla(0,0%,9%,.013) 18.38%,hsla(0,0%,9%,0) 20%),url("https://occ-0-4857-2186.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABVgn_p6x-mxIQcBzkU_vGdfLNMsA7E_nkawA-Tv9_tWlzlvfMDPh5Q3iVBkD88NMcZH3oe5SEGbfF8RLKWlDW0xP1el-OtNelEz5.jpg?r=c74&quot"); */
+    background:linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)),url("https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSKsKJ1evKVMFmy4p6-_UxC18iEsk2r4qOMj9YvKgaz29DKJKzx40MWlXM8Xocb02cwu84YdDNuWYBtUaFvb9JaR_NsPenzwuYzl.jpg?r=d8c&quot");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color:white;
+}
+.banner-content{
+    padding-top: 10%;
+    padding-left: 4%;
+    
+}
+.title{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.span{
+    color: #A3A3A3;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.label{
+    color: #A3A3A3;
+}
+.synopsis{
+    font-size: 16px;
+}
+.info-synopsis{
+    margin-bottom: 15px;
+}
+.logo1{
+    margin: auto;
+    height: auto;
+    width: 40%;
+    margin-bottom: 50px;
+}
+nav{
+    display: flex;
+    background-color: black;
+}
+.logo img{
+    max-width: 10%;
+    align-items: center;
+    margin: 2% 0% 0% 4%;
+}
+.action{
+    display: flex;
+}
+.join{ 
+    width:180px;
+    height:40px; 
+    background-color: #e50914;
+    color: #fff;
+    margin: 3% 1% 1.5% 1%;
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signin{ 
+    width:130px;
+    height:40px; 
+    
+    background-color:transparent;
+    color: #fff;
+    margin: 3% 7% 3% 1%;
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: white;
+}
+.action .nm{
+    text-align: center;
+    padding: 4% 1% 1.5% 1%;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.join:hover{
+    color:red;
+    background-color: #A3A3A3;
+    transition-duration: 2s;
+}
+.signin:hover{
+    color:red;
+    background-color: #A3A3A3;
+}

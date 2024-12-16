@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #111;
+    color: white;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://assets.nflxext.com/ffe/siteui/vlv3/4d2c5849-b306-4884-9036-6211f7ee0178/web/IN-en-20240930-TRIFECTA-perspective_1e1ca6cd-9e2d-4e9d-9e4b-ba0c2d3a0e31_large.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.navbar .nav-img img{
+    max-width: 15%;
+    padding: 0 8%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar .lang-btn{
+    display: flex;
+    gap: 10px;
+}
+.navbar .lang-btn button i{
+    padding: 7px 7px;
+    border-radius: px;  
+}
+.navbar .lang-btn button{
+    border-radius: 4px;
+    background-color: transparent; 
+    color: white;
+    border: 1px solid gray;
+}
+.navbar .lang-btn button{
+    border-radius: 4px;
+    background-color: transparent; 
+    color: white;
+    border: 1px solid gray;
+}
+.navbar .lang-btn .signin{
+    background-color: red;
+    padding: 7px 15px;
+    border: none;
+}
+.header-content{
+    text-align: center;
+    padding: 8% 0% 0%;
+    color: #fff;
+    margin: auto 30%;
+}
+.header-content h1{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+}
+.header-content h3{
+    padding-top:4%;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 17px;
+}
+.header-content p{
+    padding-top:4%;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 17px;
+}
+.header-content input{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 17px;
+    width: 50%;
+    text-align: left;
+    margin-top: 4%;
+    padding: 7px 15px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: #fff;
+    border-radius: 4px;
+}
+.header-content button{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 17px;
+    padding: 7px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;  
+}
+
+
+
+/* ---------------------------------section 2 ---------------------------------------------*/
+
+
+
+.section .line{
+    width: 100%;
+    height: 4px;
+    background-color: red;
+
+}
+.section h1{
+    padding: 1% 10%;
+    font-size: 25px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif ;
+}
+.cards{
+    display: flex;
+    margin: 0px 14% 0px 10%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.cards::-webkit-scrollbar{
+    display: none;
+}
+
+.cards .card img{
+    border-radius: 4px;
+}
+.cards .card{
+    margin: 0px 15px 2%;
+    cursor: pointer;
+    transition: transform 400ms;
+}
+.cards .card:hover{
+    transform: scale(1.09);
+}
+
+
+/* -----------------container section ----------------------*/
+
+
+.section3{
+    display: flex;
+    margin: 0px 10%;
+}
+.container{
+    max-width: 20%;
+    background-color: rgb(17, 17, 63);
+    margin: 0px 25px 20px;
+    border-radius: 20px;
+}
+.container .contain-content{
+    object-fit: contain;
+    padding: 10px 10px;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.container .contain-content img{
+    width: 30%;
+    height: 30%;
+    padding: 10px 0px 10px 150px;
+}
+
+
+
+-------------- frequently asked questions ---------------/
+
+.accordion{
+    margin: 40px 190px;
+    width: 100%;
+    max-width: 1100px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size:34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0 ;
+    overflow: hidden; 
+    transition: max-height 0.5s,padding 0.5s;
+}
+.accordion input[type="radio"]:checked+label+.content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked+label::after{
+    transform: rotate(135deg);
+}
+.faq .header-content{
+    padding:0% 0% 5%;
+}
+
+
+
+/* -------------------footer section css------------------------ */
+
+
+footer{
+    padding: 40px 4% 10px;
+    color: #666;
+}
+
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'arial';
+    margin: 0 0 20px 100px;
+    color: #b8b2b2;
+}
+footer .row{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px ;
+
+}
+footer .col{
+    margin: 10px 100px;
+}
+footer .col a{
+    color: #b1adad;
+    font-size: 0.8rem;
+    padding: 8px;
+    display: block;
+}
+
+footer .lang-btn button i{
+    padding: 9px 9px;
+    border-radius: px;  
+}
+footer .lang-btn button{
+    border-radius: 4px;
+    background-color: transparent; 
+    color: white;
+    border: 1px solid gray;
+    margin: 40px 100px;
+}
+footer .lang-btn button{
+    border-radius: 4px;
+    background-color: transparent; 
+    color: white;
+    border: 1px solid gray;
+}
+
+h4{
+    color: #b1adad;
+    font-weight: 300;
+    padding: 0px 100px 50px;
+}

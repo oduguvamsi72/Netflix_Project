@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #222;
+    color: #ffff;
+}
+.title{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.span{
+    color: #A3A3A3;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.label{
+    color: #A3A3A3;
+}
+.synopsis{
+    font-size: 16px;
+    margin-right: 70px;
+}
+.info-synopsis{
+    margin-bottom: 15px;
+}
+.logo{
+    margin: auto;
+    height: auto;
+    width: 40%;
+    margin-bottom: 50px;
+}
+nav{
+    display: flex;
+    background-color: black;
+    position: sticky;
+}
+.logo1 img{
+    max-width: 10%;
+    align-items: center;
+    margin: 2% 0% 0% 4%;
+}
+.action{
+    display: flex;
+}
+.join{ 
+    width:180px;
+    height:40px; 
+    background-color: #e50914;
+    color: #fff;
+    margin: 3% 1% 1.5% 1%;
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signin{ 
+    width:130px;
+    height:40px; 
+    
+    background-color:transparent;
+    color: #fff;
+    margin: 3% 7% 3% 1%;
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: white;
+}
+.action .nm{
+    text-align: center;
+    padding: 4% 1% 1.5% 1%;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.join:hover{
+    color:red;
+    background-color: #A3A3A3;
+    transition-duration: 2s;
+}
+.signin:hover{
+    color:red;
+    background-color: #A3A3A3;
+}
+.maturity-number{
+    border: #A3A3A3 solid 1px;
+    padding: 3px;
+}
